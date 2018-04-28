@@ -34,8 +34,12 @@ Bringt den Vorteil, dass einfache Entwicklungen von Apps, anderen Frontends mög
 
 ## Probleme 
 Wie verifizieren wir ein Unternehmen? 
--> Manuelle Verifikation aufgrund von Arbeitslast nicht möglich. 
+-> Manuelle Verifikation aufgrund von Arbeitslast nicht möglich.
+
 -> User*innen Rating könnte aufgrund von Angriffen verfälschst werden. Für größere bekannten Marken bestimmt auffangbar, für kleinere unbekannte definitiv nicht. 
+
 -> Auf die Menschen vertrauen? Auf die Unternehmen vertrauen? 
+
 -> Lieber den weg andersrum nehmen: auf Meldungen von Usern eingehen. 
+
 -> Wikipedia Prinzip? User*innen können Kommentare einrichen, müssen diese aber belegen. 
