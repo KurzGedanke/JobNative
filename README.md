@@ -27,6 +27,7 @@ Eine Online Job Börse (vielleicht irgendwann mal Job Messen?), wo solche Untern
 - VueJS
 - HTML
 - CSS Grid
+- SASS (SCSS)
 
 ## Architektur
 Aufbau soll eine statische Website sein, die sich aus einer json API die Daten (Infos zu Unternemen, Infos zu Job, Erstellung der Angebot, anlegen von Accounts) holt um sie dann Lokal darzustellen. 
