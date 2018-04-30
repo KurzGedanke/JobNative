@@ -44,3 +44,7 @@ Wie verifizieren wir ein Unternehmen?
 -> Lieber den weg andersrum nehmen: auf Meldungen von Usern eingehen. 
 
 -> Wikipedia Prinzip? User*innen können Kommentare einrichen, müssen diese aber belegen. 
+
+## Lösung
+
+-> Volle Kontrolle den Usern? Votings für die Anzeigen + irgendwann bei -20 bis -30 einen Hide Button, der die Anzeigen versteckt/löscht? 
