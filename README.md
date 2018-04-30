@@ -47,4 +47,4 @@ Wie verifizieren wir ein Unternehmen?
 
 ## Lösung
 
--> Volle Kontrolle den Usern? Votings für die Anzeigen + irgendwann bei -20 bis -30 einen Hide Button, der die Anzeigen versteckt/löscht? 
+-> Volle Kontrolle den User*innen? Votings für die Anzeigen + irgendwann bei -20 bis -30 einen Hide Button, der die Anzeigen versteckt/löscht? 
