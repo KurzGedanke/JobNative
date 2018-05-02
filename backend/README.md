@@ -2,9 +2,23 @@
 
 ## Idee:
 
-ˋGET/searchˋ sucht auf dem server nach den passenden Jobs und returned ein json mit einer ˋIDˋ und den ˋtitleˋ von den Jobs.
-Diese IDs und Title werden dann auf der Suchergebis Seite angezeigt und beim klicken suf einen Job holt er eich 
+`GET/search` sucht auf dem server nach den passenden Jobs und returned ein json mit einer `ID` und den `title` von den Jobs.
+Diese IDs und Title werden dann auf der Suchergebis Seite angezeigt und beim klicken suf einen Job holt er eich
 die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
+
+## Datenbanken:
+
+**jobs**
+
+|    ID    | jobtitle | username |  datum |  tags  | beschreibung | adresse |  email | telefon | einstellungsart |
+|:--------:|:--------:|:--------:|:------:|:------:|:------------:|:-------:|:------:|:-------:|:---------------:|
+| int, key, unique |  string  |  string  | string | string |    string    |  string | string |  string |      string     |
+
+**user**
+
+|        id        |    username    |   unternehmen  |      email     |      pass     |
+|:----------------:|:--------------:|:--------------:|:--------------:|:-------------:|
+| int, key, unique | string, unique | string, unique | string, unique | string (hash) |
 
 ## GET
 `GET/search/KEYWORD`
@@ -14,6 +28,7 @@ die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
   "search": "KEYWORD",
   "jobs": [
     {
+      "ID": 0,
       "jobtitle": "Job Title1(KEYWORD)",
       "username": "USERNAME",
       "datum": "1.1.2001",
@@ -30,6 +45,7 @@ die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
       }
     },
     {
+      "ID": 1,
       "jobtitle": "Job Title2(KEYWORD)",
       "username": "USERNAME",
       "datum": "1.1.2001",
@@ -46,6 +62,7 @@ die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
       }
     },
     {
+      "ID": 2,
       "jobtitle": "Job Title3(KEYWORD)",
       "username": "USERNAME",
       "datum": "1.1.2001",
@@ -76,6 +93,7 @@ die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
   ],
   "jobs": [
     {
+      "ID": 0,
       "jobtitle": "Job Title1(KEYWORD)",
       "username": "USERNAME",
       "datum": "1.1.2001",
@@ -92,6 +110,7 @@ die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
       }
     },
     {
+      "ID": 2,
       "jobtitle": "Job Title3(KEYWORD)",
       "username": "USERNAME",
       "datum": "1.1.2001",
