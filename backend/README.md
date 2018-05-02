@@ -1,5 +1,11 @@
 # JobNative Externe API
 
+## Idee:
+
+ˋGET/searchˋ sucht auf dem server nach den passenden Jobs und returned ein json mit einer ˋIDˋ und den ˋtitleˋ von den Jobs.
+Diese IDs und Title werden dann auf der Suchergebis Seite angezeigt und beim klicken suf einen Job holt er eich 
+die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
+
 ## GET
 `GET/search/KEYWORD`
 
