@@ -237,7 +237,7 @@ venv.bak/
 
 ### venv ###
 # Linux
-bin/ 
+bin/
 include/
 
 # Window
@@ -674,5 +674,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+# Anaconda
+.anaconda
 
 # End of https://www.gitignore.io/api/macos,linux,windows
