@@ -1,26 +1,27 @@
 # JobNative Externe API
 
-## Idee:
+## Idee
 
 `GET/search` sucht auf dem server nach den passenden Jobs und returned ein json mit einer `ID` und den `title` von den Jobs.
 Diese IDs und Title werden dann auf der Suchergebis Seite angezeigt und beim klicken suf einen Job holt er eich
 die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
 
-## Datenbanken:
+## Datenbanken
 
-**jobs**
+### Jobs
 
 |    ID    | jobtitle | username |  datum |  tags  | beschreibung | adresse |  email | telefon | einstellungsart |
 |:--------:|:--------:|:--------:|:------:|:------:|:------------:|:-------:|:------:|:-------:|:---------------:|
 | int, key, unique |  string  |  string  | string | string |    string    |  string | string |  string |      string     |
 
-**user**
+### User
 
 |        id        |    username    |   unternehmen  |      email     |      pass     |
 |:----------------:|:--------------:|:--------------:|:--------------:|:-------------:|
 | int, key, unique | string, unique | string, unique | string, unique | string (hash) |
 
 ## GET
+
 `GET/search/KEYWORD`
 
 ```json
@@ -165,5 +166,3 @@ die entsprechend vollständigen datenbank eintrag zu dem Job als JSON.
 ```
 
 > Authentication via Session Cookie
-
-#Programming/Projects/JobNative
