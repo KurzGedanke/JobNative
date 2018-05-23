@@ -1,0 +1,37 @@
+.header {
+  display: block;
+  width: 100%;
+  height: 250px;
+  max-height: 45%;
+  background-color: #931F12;
+  position: relative;
+  box-shadow: 0px 10px 20px;
+  z-index: -1;
+
+  .header-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 25%;
+    width: 100%;
+  }
+}
+
+.search-form {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 25px;
+  .grid-item {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: lightblue;
+  }
+}
